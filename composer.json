@@ -1,0 +1,16 @@
+{
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.7",
+        "php-di/slim-bridge": "^3.0",
+        "illuminate/database": "^9.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
