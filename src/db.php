@@ -21,3 +21,13 @@ $capsule->addConnection([
 
 $capsule->setAsGlobal();
 $capsule->bootEloquent();
+
+
+
+// Add this into .env file i am deleted it
+// DB_CONNECTION=mysql
+// DB_HOST=localhost
+// DB_PORT=3306
+// DB_DATABASE=new
+// DB_USERNAME=root
+// # DB_PASSWORD= ; Change to your MySQL password
